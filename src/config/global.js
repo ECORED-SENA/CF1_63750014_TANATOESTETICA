@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Introducción a la tanatoestética',
+    descripcionCurso:
+      'El presente componente de formación tiene como intención, realizar el abordaje de algunos conceptos y generalidades para el sector funerario, la comprensión de la muerte y la ética del tanatopractor en el proceso de tanatoestética. Elementos que están orientados al acondicionamiento del cuerpo, para borrar en él los signos de la muerte y crear un cuadro memorial para los familiares y su recuerdo en la posteridad.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -22,39 +23,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conceptos y generalidades para el sector funerario',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tanatoestética: historia',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ética en el sector funerario',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'La muerte en la tanatopraxia',
         desarrolloContenidos: true,
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -88,34 +82,96 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      referencia:
+        'Bonete, E. (2002). Ética de la muerte: de la Bio-ética a la Tánato-ética. Daimon Revista Internacional de Filosofía, (25), p. 57–74.',
+      link: 'https://revistas.um.es/daimon/article/view/14801',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Escobar. G. (2000). Ética. Introducción a su problemática y su historia. McGraw-Hill. ',
+      link:
+        'https://www.academia.edu/30060589/%C3%89tica_Introducci%C3%B3n_a_su_problem%C3%A1tica_y_su_historia_ESCOBAR_1_',
+    },
+    {
+      referencia: 'Equipo editorial, E. (2021). Ritual. Obtenido de ',
+      link: 'https://concepto.de/ritual/',
+    },
+    {
+      referencia:
+        'Illinois Institute of Technology. (s.f.). Language of professional ethics. Illinois Institute of Technology.',
+      link: 'http://ethics.iit.edu/teaching/language-professional-ethics',
+    },
+    {
+      referencia:
+        'ICONTEC. (2017). Norma Técnica Colombiana NTC 5840. ICONTEC.',
+      link:
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-ES&Q=AF60935720F13C6466C0297B7F80FF16&Req=',
+    },
+    {
+      referencia:
+        'Lichtenberg, J. (1996). What are codes of ethics for? Codes of Ethics and the Professions. Margaret Coady and Sidney Bloch, eds. Melbourne University Press.',
+      /*link:
+        'https://www.minambiente.gov.co/images/AsuntosambientalesySectorialyUrbana/Talento_humano/Circular-015/GUIA_DE_LIMPIEZA_Y_DESINFECCION.pdf',
+    */
+    },
+    {
+      referencia:
+        'Mayer, R. G. y Johnson, E. (2012). Embalsamamiento: Historia, teoría y práctica. (quinta edición). Mc Graw Hill.',
+    },
+    {
+      referencia:
+        'Mego, G. (2016). Tanatopraxia y tanatoestética. Todo un arte de conservar y embellecer al cadáver. Morfolia – Vol. 8 - No. 2 – 2016.',
+      link:
+        'https://repositorio.unal.edu.co/bitstream/handle/unal/67117/60112-305939-1-PB.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia:
+        'Norman, R. (1998). The moral philosophers. Oxford University Press.',
+    },
+    {
+      referencia:
+        'Ortiz, G. (2016). Sobre la distinción entre ética y moral. Isonomía. Revista de Teoría y Filosofía del Derecho, 45, p. 113-139.',
+      link: 'https://www.redalyc.org/pdf/3636/363648284005.pdf',
+    },
+    {
+      referencia:
+        'Panasef Asociación Nacional de Servicios Funerarios. (2020). Los compromisos éticos del sector funerario [video]. YouTube.',
+      link: 'https://youtu.be/WD94qPyCu0E',
+    },
+    {
+      referencia: 'Significados. (s.f.).  Significado: Ritual. Obtenido de ',
+      link: 'https://www.significados.com/ritual/',
+    },
+    {
+      referencia:
+        'Subercaseaux Instituto de Banca y Finanzas. (s.f.). Unidad I: la moral, la ética profesional y los valores de la empresa.',
+      link: 'http://sedevirtual.ieb.cl/DG/PDF/ERS01e/version_pdf_unidad1.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Respeto',
+      significado:
+        'Consideración acompañada de cierta sumisión, con que se trata a una persona o a una cosa por alguna cualidad, situación o circunstancia que la determina y que lleva a acatar lo que dice o establece o a no causar ofensa o perjuicio.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Servicios funerarios ',
+      significado:
+        'Conjunto de actividades organizadas para la realización de rituales fúnebres.  Pueden constar de servicios básicos tales como la preparación del cadáver, restos humanos, restos óseos o cenizas; obtención de licencias de inhumación o cremación; traslados, suministro de carroza fúnebre para el servicio; ataúd, urna, sala de velación, trámites civiles y eclesiásticos (Norma Técnica Colombiana NTC 5840, 2017).',
+    },
+    {
+      termino: 'Valores',
+      significado:
+        'Cualidad o conjunto de cualidades por las que una persona o cosa es apreciada o bien considerada.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+      texto: 'Ética en el sector funerario',
+      tipo: 'Video',
+      link: 'https://youtu.be/WD94qPyCu0E',
     },
   ],
   creditos: {
@@ -133,6 +189,53 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Luz María Uribe Lotero',
+        cargo: 'Experta Temática',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+      },
+      {
+        nombre: 'Lina María Restrepo Zapata',
+        cargo: 'Experta Temática',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+      },
+      {
+        nombre: 'John Alejandro Carmona Escobar.',
+        cargo: 'Experto Temática',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+      },
+      {
+        nombre: 'Jhacesiz Mary Hincapié Atehortúa',
+        cargo:
+          'Instructora (EPC) – Líder Desarrollo Curricular Servicios Personales',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+      },
+      {
+        nombre: 'Adriana María Bustamante Cataño',
+        cargo: 'Profesional de Diseño y Producción Curricular',
+        centro: 'Centro de Servicios de Salud - Regional Antioquia',
+      },
+      {
+        nombre: 'Cristian Metaute Medina',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica del SENA - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -142,25 +245,42 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Eulises Orduz',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lizeth Karina Manchego',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Emilsen Alfonso Bautista',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -168,19 +288,9 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
